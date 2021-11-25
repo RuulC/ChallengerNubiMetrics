@@ -15,8 +15,8 @@ GO
 
 CREATE TABLE [dbo].[Usuarios] (
     [Id]       INT           NOT NULL,
-    [nombre]   NVARCHAR (50) NULL,
-    [apellido] NVARCHAR (50) NULL,
-    [email]    NVARCHAR (50) NULL,
+    [nombre]   NVARCHAR (150) NULL,
+    [apellido] NVARCHAR (150) NULL,
+    [email]    NVARCHAR (150) NULL,
     [password] NVARCHAR (50) NULL
 );
