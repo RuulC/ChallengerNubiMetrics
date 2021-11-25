@@ -1,0 +1,22 @@
+USE [master]
+GO
+
+CREATE DATABASE [Nubimetrics]
+
+
+USE [NubiMetrics]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Usuarios] (
+    [Id]       INT           NOT NULL,
+    [nombre]   NVARCHAR (50) NULL,
+    [apellido] NVARCHAR (50) NULL,
+    [email]    NVARCHAR (50) NULL,
+    [password] NVARCHAR (50) NULL
+);
