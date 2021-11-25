@@ -14,9 +14,9 @@ namespace ChallengerNubiMetrics.Controllers
     {
         // GET: api/<PaisesController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            return "Pruebame en Postman con la url https://localhost:[nroPuerto]/api/Paises/AR";
             
         }
 
