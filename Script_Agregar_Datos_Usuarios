@@ -1,0 +1,39 @@
+INSERT INTO [Nubimetrics].[dbo].[Usuarios]
+           ([Id]
+           ,[nombre]
+           ,[apellido]
+           ,[email]
+           ,[password])
+     VALUES
+           (1
+           ,'Juan'
+           ,'Perez'
+           ,'juanperez@gmail.com'
+           ,'juan123')
+GO
+INSERT INTO [Nubimetrics].[dbo].[Usuarios]
+           ([Id]
+           ,[nombre]
+           ,[apellido]
+           ,[email]
+           ,[password])
+     VALUES
+           (2
+           ,'Luis'
+           ,'Cordoba'
+           ,'luiscordoba@gmail.com'
+           ,'luis123')
+GO
+INSERT INTO [Nubimetrics].[dbo].[Usuarios]
+           ([Id]
+           ,[nombre]
+           ,[apellido]
+           ,[email]
+           ,[password])
+     VALUES
+           (3
+           ,'Andrea'
+           ,'Gairan'
+           ,'andreagaitan@gmail.com'
+           ,'andrea123')
+GO
