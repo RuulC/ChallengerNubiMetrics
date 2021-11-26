@@ -15,7 +15,7 @@ namespace ChallengerNubiMetrics.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "1" };
+            return new string[] { "Pruebame en Postman con la url https://localhost:[nroPuerto]/api/Busqueda/iphone" };
 
         }
 
